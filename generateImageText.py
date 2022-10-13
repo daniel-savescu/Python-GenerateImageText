@@ -17,10 +17,9 @@ colors = ["black", "Azure", "Chocolate", "DarkGray", "Gray", "DarkTurquoise",
            "Gainsboro", "GhostWhite", "HoneyDew", "green", "blue", "red"]
 col = choice(colors)
 
-img = Image.new('RGB', (1024, 768), color=f'{col}')
-fnt = ImageFont.truetype("Mermaid.ttf", 200)
-fnt2 = ImageFont.truetype("Ft.ttf", 200)
-fnt3 = ImageFont.truetype("Bebas.ttf", 200)
+img = Image.new('RGB', (1280, 720), color=f'{col}')
+fnt = ImageFont.truetype("CadillacPersonalUseItalic-K7pny.ttf", 200)
+fnt3 = ImageFont.truetype("AnandaBlackPersonalUseRegular-rg9Rx.ttf", 200)
 draw = ImageDraw.Draw(img)
 
 draw.text(xy=(100, 200),fill=(c6, c3, c1), text = firstName, font=fnt3)
