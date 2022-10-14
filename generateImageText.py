@@ -30,8 +30,7 @@ draw = ImageDraw.Draw(img)
 draw.text(xy=(100, 200),fill=(c6, c3, c1), text = firstName, font=font2)
 draw.text(xy=(200, 300),fill=(c4, c5, c6), text= lastName ,font=font)
 
-
-
+#Saving image
 img.save('Output.jpg')
 
 print("Done!")
