@@ -1,3 +1,6 @@
+#Program to generate image text
+#Python Verion : 3.9.6
+
 from PIL import Image, ImageDraw, ImageFont
 from random import randint, choice
 
@@ -8,7 +11,9 @@ c4 = randint(0, 256)
 c5 = randint(0, 256)
 c6 = randint(0, 256)
 
+
 print("=======Custom Name========\n")
+
 firstName = input("First Name: ")
 lastName = input("Last Name :")
 
